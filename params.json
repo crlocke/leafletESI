@@ -1,6 +1,0 @@
-{
-  "name": "Leafletesi",
-  "tagline": "",
-  "body": "\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>Charleston SC</title>\r\n\t<meta charset=\"utf-8\" />\r\n\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\r\n\t<link rel=\"stylesheet\" href=\"http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css\" />\r\n</head>\r\n<body>\r\n\t<div id=\"map\" style=\"width: 2550px; height: 3300px\"></div>\r\n\r\n\t<script src=\"http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js\"></script>\r\n\t<script>\r\n\t\tvar map = L.map('map', { zoomControl:false } ).setView([32.7807326,-79.9323383],16);\r\n\t\tL.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {\r\n\t\t\tmaxZoom: 16,\r\n\t\t\text: 'png'\r\n\t\t}).addTo(map);\r\n\t\t\r\n\t\tL.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}.{ext}', {\r\n\t\t\tmaxZoom: 20,\r\n\t\t\text: 'png'\r\n\t\t}).addTo(map);\r\n\t\t\r\n\t</script>\r\n</body>\r\n</html>",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
